@@ -89,6 +89,8 @@ export default function IDCard() {
 </div>
 
           </div>
+          <br/>
+          <br/>
 
           {/* Card 2 */}
           <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px]">
