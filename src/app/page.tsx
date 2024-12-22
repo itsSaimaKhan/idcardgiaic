@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import Image from "next/image";
 
@@ -25,12 +23,7 @@ export default function IDCard() {
 
             {/* Logo at Top Left */}
             <div className="absolute top-4 left-4">
-              <Image
-                src="/images/logo.png"
-                alt="logo"
-                width={50}
-                height={50}
-              />
+              <Image src="/images/logo.png" alt="logo" width={50} height={50} />
             </div>
 
             {/* Profile Picture at Top Right */}
@@ -65,9 +58,7 @@ export default function IDCard() {
                 </p>
                 <p className="mb-2">
                   <span className="font-bold text-sky-500">Days/Time:</span>{" "}
-                  <span className="text-black">
-                    Monday, 02:00PM - 05:00PM
-                  </span>
+                  <span className="text-black">Monday, 02:00PM - 05:00PM</span>
                 </p>
                 <p className="mb-2">
                   <span className="font-bold text-sky-500">Batch:</span>{" "}
@@ -85,13 +76,13 @@ export default function IDCard() {
 
             {/* Box with "Q2" */}
             <div className="absolute bottom-0 left-0 bg-gray-500 text-white py-2 px-6 sm:px-20 rounded-bl-lg ">
-  <p className="font-bold">Q2</p>
-</div>
-
+              <p className="font-bold">Q2</p>
+            </div>
           </div>
-          <br/>
-          <br/>
+          <br />
 
+          {/* Row of Top Cards */}
+          <div className="flex flex-wrap justify-center space-x-6 mb-6"></div>
           {/* Card 2 */}
           <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px]">
             {/* Background Image */}
@@ -108,12 +99,7 @@ export default function IDCard() {
 
             {/* Logo at Top Left */}
             <div className="absolute top-4 left-4">
-              <Image
-                src="/images/logo.png"
-                alt="logo"
-                width={50}
-                height={50}
-              />
+              <Image src="/images/logo.png" alt="logo" width={50} height={50} />
             </div>
 
             {/* Profile Picture at Top Right */}
@@ -168,9 +154,8 @@ export default function IDCard() {
 
             {/* Box with "Q2" */}
             <div className="absolute bottom-0 left-0 bg-gray-500 text-white py-2 px-6 sm:px-20 rounded-bl-lg ">
-  <p className="font-bold">Q2</p>
-</div>
-
+              <p className="font-bold">Q2</p>
+            </div>
           </div>
         </div>
 
@@ -190,12 +175,7 @@ export default function IDCard() {
 
           {/* Logo at Top Left */}
           <div className="absolute top-4 left-4">
-            <Image
-              src="/images/logo.png"
-              alt="logo"
-              width={50}
-              height={50}
-            />
+            <Image src="/images/logo.png" alt="logo" width={50} height={50} />
           </div>
 
           {/* Profile Picture at Top Right */}
@@ -248,12 +228,10 @@ export default function IDCard() {
 
           {/* Box with "Q3" */}
           <div className="absolute bottom-0 left-0 bg-gray-500 text-white py-2 px-6 sm:px-20 rounded-bl-lg ">
-  <p className="font-bold">Q2</p>
-</div>
-
+            <p className="font-bold">Q2</p>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
