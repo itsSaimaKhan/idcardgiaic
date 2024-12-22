@@ -10,7 +10,7 @@ export default function IDCard() {
         {/* Row of Top Cards */}
         <div className="flex flex-wrap justify-center space-x-6 mb-6">
           {/* Card 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px] mb-6 sm:mb-0">
+          <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px]">
             {/* Background Image */}
             <div className="absolute inset-0 flex justify-center items-center">
               <Image
@@ -91,7 +91,7 @@ export default function IDCard() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px] mb-6 sm:mb-0">
+          <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px]">
             {/* Background Image */}
             <div className="absolute inset-0 flex justify-center items-center">
               <Image
