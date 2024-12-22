@@ -51,7 +51,7 @@ export default function IDCard() {
                 </p>
                 <p className="mb-2">
                   <span className="font-bold text-sky-500">Roll No:</span>{" "}
-                  <span className="text-black">00001747</span>
+                  <span className="text-black">00051286</span>
                 </p>
                 <p className="mb-2">
                   <span className="font-bold text-sky-500">City:</span>{" "}
