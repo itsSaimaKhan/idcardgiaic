@@ -6,7 +6,7 @@ export default function IDCard() {
     <div className="flex flex-col min-h-screen bg-gray-100">
       <div className="flex-grow flex flex-col items-center justify-center p-6">
         {/* Row of Top Cards */}
-        <div className="flex flex-wrap justify-center space-x-6 mb-6">
+        <div className="flex flex-wrap justify-center gap-6 mb-6">
           {/* Card 1 */}
           <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px]">
             {/* Background Image */}
@@ -14,8 +14,8 @@ export default function IDCard() {
               <Image
                 src="/images/governor pic.png"
                 alt="background image"
-                width={400}
                 height={400}
+                width={400}
                 objectFit="cover"
                 className="opacity-10 rounded-lg"
               />
@@ -75,14 +75,11 @@ export default function IDCard() {
             </div>
 
             {/* Box with "Q2" */}
-            <div className="absolute bottom-0 left-0 bg-gray-500 text-white py-2 px-6 sm:px-20 rounded-bl-lg ">
+            <div className="absolute bottom-0 left-0 bg-gray-500 text-white py-2 px-6 sm:px-20 rounded-bl-lg">
               <p className="font-bold">Q2</p>
             </div>
           </div>
-          <br />
 
-          {/* Row of Top Cards */}
-          <div className="flex flex-wrap justify-center space-x-6 mb-6"></div>
           {/* Card 2 */}
           <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px]">
             {/* Background Image */}
@@ -90,8 +87,8 @@ export default function IDCard() {
               <Image
                 src="/images/governor pic.png"
                 alt="background image"
-                width={400}
                 height={400}
+                width={400}
                 objectFit="cover"
                 className="opacity-10 rounded-lg"
               />
@@ -153,14 +150,14 @@ export default function IDCard() {
             </div>
 
             {/* Box with "Q2" */}
-            <div className="absolute bottom-0 left-0 bg-gray-500 text-white py-2 px-6 sm:px-20 rounded-bl-lg ">
+            <div className="absolute bottom-0 left-0 bg-gray-500 text-white py-2 px-6 sm:px-20 rounded-bl-lg">
               <p className="font-bold">Q2</p>
             </div>
           </div>
         </div>
 
         {/* Third Card */}
-        <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px]">
+        <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-sky-300 relative w-full sm:w-[600px] h-[350px] mx-auto">
           {/* Background Image */}
           <div className="absolute inset-0 flex justify-center items-center">
             <Image
@@ -227,7 +224,7 @@ export default function IDCard() {
           </div>
 
           {/* Box with "Q3" */}
-          <div className="absolute bottom-0 left-0 bg-gray-500 text-white py-2 px-6 sm:px-20 rounded-bl-lg ">
+          <div className="absolute bottom-0 left-0 bg-gray-500 text-white py-2 px-6 sm:px-20 rounded-bl-lg">
             <p className="font-bold">Q2</p>
           </div>
         </div>
